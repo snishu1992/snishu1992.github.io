@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Prashant Singh — Portfolio</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;900&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="" crossorigin="anonymous"/>
+
+  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="Prashant Singh — Data Analyst / Data Scientist. Portfolio with projects, skills, experience and contact.">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <div class="brand">Prashant Singh</div>
+      <div class="nav-links">
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#projects">PROJECTS</a>
+        <a href="#contact">CONTACT</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HOME / HERO -->
+  <header id="home" class="hero">
+    <div class="hero-inner">
+      <div class="hero-text" data-anim>
+        <div class="welcome">Welcome</div>
+        <div class="intro">I'm</div>
+        <h1 class="name">Prashant<br>Singh</h1>
+        <div class="subtitle">Data Analyst / Data Scientist</div>
+
+        <div class="cta-row">
+          <a class="btn-outline" href="#projects">View Projects</a>
+          <a class="btn-ghost" href="PRASHANT SINGH.pdf" download>Download CV</a>
+        </div>
+
+        <div class="socials">
+          <a href="https://www.linkedin.com/in/prashant-singh-ncky" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="mailto:snishu1992@gmail.com" title="Email"><i class="fa-regular fa-envelope"></i></a>
+          <a href="https://github.com/snishu1992" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about" class="section dark" data-anim>
+    <div class="container about-grid">
+      <div class="photo-card" data-anim>
+        <img src="prashant.jpg" alt="Prashant Singh photo">
+      </div>
+
+      <div class="about-content" data-anim>
+        <h2>About</h2>
+        <p class="lead">
+          I am an experienced Master Trainer and Data Analyst with expertise in Python, data analytics, dashboard creation (Power BI & Tableau), machine learning, and database technologies. I design and deliver technical training and practical projects that help learners and organizations turn data into insights.
+        </p>
+
+        <ul class="meta">
+          <li><strong>Email:</strong> <a href="mailto:snishu1992@gmail.com">snishu1992@gmail.com</a></li>
+          <li><strong>Location:</strong> India</li>
+          <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/prashant-singh-ncky" target="_blank">prashant-singh-ncky</a></li>
+        </ul>
+
+        <a class="btn" href="resume/Prashant-Singh-CV.pdf" download>Download Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section" data-anim>
+    <div class="container">
+      <h2>Projects</h2>
+      <p class="muted">Selected projects from my GitHub — click to open the repository.</p>
+
+      <div class="projects-grid">
+        <a class="project" href="https://github.com/snishu1992/Excel-Dashboard" target="_blank">
+          <h3>Excel Dashboard</h3>
+          <p>Interactive Excel dashboard demonstrating analytical reports and interactivity.</p>
+        </a>
+
+        <a class="project" href="https://github.com/snishu1992/Power-BI-Practice" target="_blank">
+          <h3>Power BI Practice</h3>
+          <p>Power BI workbook for Superstore dataset with measures, visuals and storytelling.</p>
+        </a>
+
+        <a class="project" href="https://github.com/snishu1992/ML-Practice" target="_blank">
+          <h3>ML Practice</h3>
+          <p>Collection of ML notebooks: Linear & Logistic Regression, Decision Trees, Random Forest, SVM, KNN.</p>
+        </a>
+
+        <a class="project" href="https://github.com/snishu1992/News-Classification" target="_blank">
+          <h3>News Classification</h3>
+          <p>NLP pipeline and experiments — News_Classification.ipynb</p>
+        </a>
+
+        <a class="project" href="https://github.com/snishu1992/Fake-News-Identification-Model" target="_blank">
+          <h3>Fake News Identification</h3>
+          <p>Text classification experiments to detect fake news.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section dark" data-anim>
+    <div class="container contact-grid">
+      <div>
+        <h2>Contact</h2>
+        <p class="lead">I'm open to training, mentorship, freelance data analysis, and collaboration on data projects.</p>
+
+        <ul class="meta">
+          <li><strong>Email:</strong> <a href="mailto:snishu1992@gmail.com">snishu1992@gmail.com</a></li>
+          <li><strong>GitHub:</strong> <a href="https://github.com/snishu1992" target="_blank">github.com/snishu1992</a></li>
+          <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/prashant-singh-ncky" target="_blank">prashant-singh-ncky</a></li>
+        </ul>
+
+        <div class="socials large">
+          <a href="https://github.com/snishu1992" target="_blank"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/prashant-singh-ncky" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="mailto:snishu1992@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+        </div>
+      </div>
+
+      <div>
+        <form class="contact-form" onsubmit="submitContact(event)" data-anim>
+          <label>Name <input name="name" required></label>
+          <label>Email <input name="email" type="email" required></label>
+          <label>Message <textarea name="message" rows="5" required></textarea></label>
+          <button class="btn" type="submit">Send message</button>
+          <p class="muted small">This opens your mail client (no server required).</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container center">
+      <small>© <span id="year"></span> Prashant Singh — Data Analyst</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
